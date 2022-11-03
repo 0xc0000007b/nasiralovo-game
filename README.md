@@ -1,7 +1,12 @@
-# console-game
+# Nasiralovo
 
-### I create thes beta test game in today. hank you for download
+## Simple adventure game. Я создал эту игру буквально на коленках. просто ради тренировки в шарпах. Всем спасибо.Все свободны.
 
-status:
-    build:
-    [![game](https://github.com/SillySharper/console-game/actions/workflows/game.yml/badge.svg)](https://github.com/SillySharper/console-game/actions/workflows/game.yml)
+### Простое насиралово
+![nasiralovo[](https://aboutan.ru/wp-content/uploads/2020/05/1-45-480x480.jpg)
+
+> status:
+>> build:
+[![Nasiralovo](https://github.com/SillySharper/nasiralovo-game/actions/workflows/Nasiralovo.yml/badge.svg)](https://github.com/SillySharper/nasiralovo-game/actions/workflows/Nasiralovo.yml)
+[![game](https://github.com/SillySharper/nasiralovo-game/actions/workflows/game.yml/badge.svg)](https://github.com/SillySharper/nasiralovo-game/actions/workflows/game.yml)
+    
