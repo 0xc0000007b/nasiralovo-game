@@ -7,4 +7,4 @@
 
 status:
     >>build:
-    [![Nasiralovo](https://github.com/SillySharper/console-game/actions/workflows/game.yml/badge.svg)](https://github.com/SillySharper/console-game/actions/workflows/game.yml)
+    [![Nasiralovo|game](https://github.com/SillySharper/console-game/actions/workflows/game.yml/badge.svg)](https://github.com/SillySharper/console-game/actions/workflows/game.yml)
