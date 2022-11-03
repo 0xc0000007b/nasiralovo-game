@@ -8,4 +8,5 @@
 > status:
 >> build:
 >> [![Nasiralovo](https://github.com/SillySharper/nasiralovo-game/actions/workflows/Nasiralovo.yml/badge.svg)](https://github.com/SillySharper/nasiralovo-game/actions/workflows/Nasiralovo.yml)
+>> [![game](https://github.com/SillySharper/nasiralovo-game/actions/workflows/game.yml/badge.svg)](https://github.com/SillySharper/nasiralovo-game/actions/workflows/game.yml)
     
