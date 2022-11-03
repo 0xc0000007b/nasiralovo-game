@@ -156,10 +156,7 @@ namespace Game.GameCore.Levels
             return selctedOpt;
         }
 
-        public void GoOut()
-        {
-            
-        }
+        
     }
 }
 

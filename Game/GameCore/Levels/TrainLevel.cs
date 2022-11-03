@@ -1,4 +1,5 @@
 using System;
+using Game.GameCore.Utils;
 
 namespace Game.GameCore.Levels
 {
@@ -7,6 +8,8 @@ namespace Game.GameCore.Levels
         private string[] Opts = {"exit the carriage", "back to sleep" };
         private int selectedOpt;
         private string Prompt;
+        private AsciiArts arts = new AsciiArts();
+            
         public void StartGame(string[] opts, string prmpt)
         {
             selectedOpt = 0;
@@ -95,11 +98,7 @@ namespace Game.GameCore.Levels
                     break; 
                case 2:
                    Console.WriteLine("you have return the carriage");
-                   string prompt = @"____________.._____________,,_______-----__ I  
-   //[]|| [][]#######    Amtrak   ###    800__I I  `~~~``~~~``~~~``~~~``~~~
-  /  ==||===================================||I I            ,---,,---, I~I
- _|____--_____          ,         ___###I###||I_I_______     `~~~``~~~` I I
- ~/-'()===() `-------------------'--()===()~`-'~`-'O===O`---------------'-'";
+                   string prompt = $"{arts.Train}";
                    Console.WriteLine("Choose option: ");
                    string[] options = new[] { "sleep", "exit the game" };
                    StartGame( options, prompt);
@@ -124,15 +123,7 @@ namespace Game.GameCore.Levels
 
         public void Sleep()
         {
-            Console.WriteLine(@" _____|~~\_____      _____________
-  _-~               \    |    \
-  _-    | )     \    |__/   \   \
-  _-         )   |   |  |     \  \
-  _-    | )     /    |--|      |  |
- __-_______________ /__/_______|  |_________
-(                |----         |  |
- `---------------'--\\\\      .`--'
-                              `||||");
+            Console.WriteLine($"{arts.Sleep}");
             Console.WriteLine("you have fall down snd sleeping");
         }
     }

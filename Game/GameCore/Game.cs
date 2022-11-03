@@ -8,7 +8,8 @@ namespace Game.GameCore
     {
         private string[] menuOPtions = new[] { "Play", "Credits", "Exit" };
         private int selInd = 0;
-
+        private AsciiArts arts = new AsciiArts();
+        
         public void Start()
         {
             Console.Title = "Test Console Game";
@@ -19,16 +20,7 @@ namespace Game.GameCore
 
         private void MainMenu()
         {
-            string prompt = @"
- _____         _                                
-|_   _|       | |                               
-  | | ___  ___| |_    __ _  __ _ _ __ ___   ___ 
-  | |/ _ \/ __| __|  / _` |/ _` | '_ ` _ \ / _ \
-  | |  __/\__ \ |_  | (_| | (_| | | | | | |  __/
-  \_/\___||___/\__|  \__, |\__,_|_| |_| |_|\___|
-                      __/ |                     
-                     |___/
-            Welcome to my game";
+            string prompt = $"{arts.GameTitle}";
             string[] options = new[] { "Play", "Credit", "Exit" };
             Menu m = new Menu(prompt, options);
             int selectedOpt = m.Run();

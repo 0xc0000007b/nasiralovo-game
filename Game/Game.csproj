@@ -40,10 +40,13 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="GameCore\Game.cs" />
+        <Compile Include="GameCore\Levels\CityLevel.cs" />
         <Compile Include="GameCore\Levels\StationLevel.cs" />
         <Compile Include="GameCore\Levels\StreetLevel.cs" />
         <Compile Include="GameCore\Levels\TrainLevel.cs" />
+        <Compile Include="GameCore\Utils\AsciiArts.cs" />
         <Compile Include="GameCore\Utils\Menu.cs" />
+        <Compile Include="GameCore\Utils\Selector.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
