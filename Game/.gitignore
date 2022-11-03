@@ -2,5 +2,5 @@
 .vs/
 .vsc/
 obj/Debug
-bin
+bin/Debug
 
