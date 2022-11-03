@@ -8,17 +8,14 @@ namespace Game.GameCore
     public class Game
     {
         private string[] menuOPtions = new[] { "Play", "Credits", "Exit" };
-        private int selInd = 0;
         private AsciiArts arts = new AsciiArts();
         private Menu m = new Menu();
         private TrainLevel tl = new TrainLevel();
         
         public void Start()
         {
-            Console.Title = "Test Console Game";
-                
+            Console.Title = $"{arts.GameTitle}";
             MainMenu();
-           
         }
 
         private void MainMenu()

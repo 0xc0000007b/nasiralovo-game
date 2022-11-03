@@ -47,6 +47,8 @@
         <Compile Include="GameCore\Levels\StreetLevel.cs" />
         <Compile Include="GameCore\Levels\TrainLevel.cs" />
         <Compile Include="GameCore\Utils\AsciiArts.cs" />
+        <Compile Include="GameCore\Utils\Dialogues\DialSystem.cs" />
+        <Compile Include="GameCore\Utils\Dialogues\SwitchDialog.cs" />
         <Compile Include="GameCore\Utils\Menu.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />

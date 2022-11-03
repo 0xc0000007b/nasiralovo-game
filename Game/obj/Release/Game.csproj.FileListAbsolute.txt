@@ -1,0 +1,6 @@
+/home/nohack/Desktop/Sharp/Game/Game/bin/Release/Game.exe
+/home/nohack/Desktop/Sharp/Game/Game/bin/Release/Game.pdb
+/home/nohack/Desktop/Sharp/Game/Game/obj/Release/Game.csproj.AssemblyReference.cache
+/home/nohack/Desktop/Sharp/Game/Game/obj/Release/Game.csproj.CoreCompileInputs.cache
+/home/nohack/Desktop/Sharp/Game/Game/obj/Release/Game.exe
+/home/nohack/Desktop/Sharp/Game/Game/obj/Release/Game.pdb
