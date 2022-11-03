@@ -1,4 +1,5 @@
 using System;
+using System.Runtime.CompilerServices;
 using Game.GameCore.Levels;
 using Game.GameCore.Utils;
 
@@ -9,6 +10,8 @@ namespace Game.GameCore
         private string[] menuOPtions = new[] { "Play", "Credits", "Exit" };
         private int selInd = 0;
         private AsciiArts arts = new AsciiArts();
+        private Menu m = new Menu();
+        private TrainLevel tl = new TrainLevel();
         
         public void Start()
         {
@@ -22,7 +25,7 @@ namespace Game.GameCore
         {
             string prompt = $"{arts.GameTitle}";
             string[] options = new[] { "Play", "Credit", "Exit" };
-            Menu m = new Menu(prompt, options);
+            m.MainMenu(prompt, options);
             int selectedOpt = m.Run();
 
 
@@ -43,6 +46,7 @@ namespace Game.GameCore
 
         public void Exit()
         {
+            Console.WriteLine("Thanks for playing");
             Console.WriteLine("\nPress Any key To Exit");
             Console.ReadKey(true);
             Environment.Exit(0);
@@ -50,29 +54,34 @@ namespace Game.GameCore
         private void Credits()
         {
             Console.Clear();
-            Console.WriteLine("Test game in console by the 0xc000007b");
-            Console.WriteLine("https://t.me/0xc000007b");
-            MainMenu();
-            Console.ReadKey(true);
+            
+            string credits = "this game made by 0xc000007b" + "\n" + "https://t.me/NullRefExcept";
+            string[] opts = new[] { "Main menu", "exit" };
+            m.MainMenu(credits, opts);
+            m.Run();
+            int seloOpt = m.selectedOpt;
+            switch (seloOpt)
+            {
+                case 0: 
+                    MainMenu();
+                    break;
+                case 1:
+                    Exit();
+                    break;
+            }
         }
         private void FirstChoice()
         {
             Console.WriteLine("you have waked up in the Carriage");
             string[] opts = new[] { "exit the carriage", "back to sleep" };
-            string prmpt = @"____________.._____________,,_______-----__ I  
-   //[]|| [][]#######    Amtrak   ###    800__I I  `~~~``~~~``~~~``~~~``~~~
-  /  ==||===================================||I I            ,---,,---, I~I
- _|____--_____          ,         ___###I###||I_I_______     `~~~``~~~` I I
- ~/-'()===() `-------------------'--()===()~`-'~`-'O===O`---------------'-'";
-            
-            TrainLevel tl = new TrainLevel();
-            tl.StartGame(opts, prmpt);
-            int selectStep = tl.Select();
+            string prmpt = $"{arts.Train}";
+            m.MainMenu( prmpt, opts);
+            int selectStep = m.selectedOpt;
             switch (selectStep)
             {
                 case 0:
                     Console.Clear();
-                    tl.ExitTheTrain();
+                    tl.StartGame();
                     break;
             }
         }

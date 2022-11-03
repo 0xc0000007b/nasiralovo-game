@@ -7,10 +7,10 @@ namespace Game.GameCore.Utils
     public class Menu
     {
         private string[] menuOpts;
-        private int selectedOpt;
+        public int selectedOpt;
         private string Prompt;
 
-        public Menu(string prompt, string[] options)
+        public void MainMenu(string prompt, string[] options)
         {
             Prompt = prompt;
             menuOpts = options;
@@ -39,6 +39,8 @@ namespace Game.GameCore.Utils
             }
             Console.ResetColor();
         }
+
+        
 
         public int Run()
         {
