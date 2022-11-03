@@ -3,4 +3,5 @@
 .vsc/
 obj/Debug
 bin/Debug
+bin/Release
 
