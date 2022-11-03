@@ -4,26 +4,8 @@
     <projectFile>Game/Game.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5492abca-0b02-41fb-870f-9f10921f81c8" name="Changes" comment="refactor">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/GameCore/Levels/Home.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/Game.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Game.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/GameCore/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/GameCore/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/GameCore/Levels/CityLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/GameCore/Levels/CityLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/GameCore/Levels/StationLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/GameCore/Levels/StationLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/GameCore/Levels/StreetLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/GameCore/Levels/StreetLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/GameCore/Levels/TrainLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/GameCore/Levels/TrainLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/GameCore/Utils/AsciiArts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/GameCore/Utils/AsciiArts.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/GameCore/Utils/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/GameCore/Utils/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/GameCore/Utils/Selector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/bin/Debug/Game.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Game/bin/Debug/Game.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/bin/Debug/Game.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Game/bin/Debug/Game.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/obj/Debug/Game.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Game/obj/Debug/Game.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/obj/Debug/Game.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Game/obj/Debug/Game.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/obj/Debug/Game.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Game/obj/Debug/Game.pdb" afterDir="false" />
+    <list default="true" id="5492abca-0b02-41fb-870f-9f10921f81c8" name="Changes" comment="nasirlovo-alpha">
+      <change beforePath="$PROJECT_DIR$/Game/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Game/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +14,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///home/nohack/Desktop/Sharp/Game/Game/GameCore/Game.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/nohack/Desktop/Sharp/Game/Game/GameCore/Levels/CityLevel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/nohack/Desktop/Sharp/Game/Game/GameCore/Levels/CityLevel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/nohack/Desktop/Sharp/Game/Game/GameCore/Levels/StationLevel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/nohack/Desktop/Sharp/Game/Game/GameCore/Levels/StreetLevel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/nohack/Desktop/Sharp/Game/Game/GameCore/Levels/TrainLevel.cs" root0="SKIP_HIGHLIGHTING" />
@@ -107,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667376473448</updated>
       <workItem from="1667376477490" duration="219000" />
-      <workItem from="1667377249366" duration="35618000" />
+      <workItem from="1667377249366" duration="36073000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1667413952288</created>
@@ -151,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667482152241</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="nasirlovo-alpha">
+      <created>1667492375273</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667492375273</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +167,8 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Game/.gitignore" />
     <MESSAGE value="add-ignore" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="nasirlovo-alpha" />
+    <option name="LAST_COMMIT_MESSAGE" value="nasirlovo-alpha" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
