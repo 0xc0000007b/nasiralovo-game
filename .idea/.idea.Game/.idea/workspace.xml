@@ -4,7 +4,9 @@
     <projectFile>Game/Game.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5492abca-0b02-41fb-870f-9f10921f81c8" name="Changes" comment="develoment-never-ends" />
+    <list default="true" id="5492abca-0b02-41fb-870f-9f10921f81c8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +14,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectId" id="2Gz1CXx39gy2wiwwbqWSFqyeSu2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -83,6 +88,7 @@
       <workItem from="1667376477490" duration="219000" />
       <workItem from="1667377249366" duration="37204000" />
       <workItem from="1667494785556" duration="4625000" />
+      <workItem from="1667564976628" duration="433000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1667413952288</created>
