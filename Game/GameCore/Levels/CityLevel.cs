@@ -6,16 +6,16 @@ namespace Game.GameCore.Levels
     
     public class CityLevel
     {
-        private Menu menu = new Menu();
-        private AsciiArts arts = new AsciiArts();
+        private Menu _menu = new Menu();
+        private AsciiArts _arts = new AsciiArts();
 
         public void StartLevel()
         {
             Console.Clear();
             string[] opts = new[] { "go to shop", "go to home", "go to street station"};
             string prompt = $"{arts.City}";
-            menu.MainMenu(prompt, opts);
-            menu.Run();
+            _menu.MainMenu(prompt, opts);
+            _menu.Run();
             int selectOpt = menu.selectedOpt;
             switch (selectOpt)
             {
