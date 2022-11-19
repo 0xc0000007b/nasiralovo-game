@@ -5,17 +5,17 @@ namespace Game.GameCore.Levels
 {
     public class TrainLevel
     {
-        private Menu menu = new Menu();
-        private AsciiArts arts = new AsciiArts();
-        private StreetLevel sl = new StreetLevel();
+        private Menu _menu = new Menu();
+        private AsciiArts _arts = new AsciiArts();
+        private StreetLevel _streetLevel = new StreetLevel();
             
         public void StartGame()
         {
             string[] options = new[] { "exit the carriage", "sleep", "exit the game" };
-            string prompt = $"{arts.Train}";
-            menu.MainMenu(prompt, options);
-            menu.Run();
-            int select = menu.selectedOpt;
+            string prompt = $"{_arts.Train}";
+            _menu.MainMenu(prompt, options);
+            _menu.Run();
+            int select = _menu.SelectedOpt;
             switch (select)
             {
                 case 0:
@@ -36,13 +36,13 @@ namespace Game.GameCore.Levels
         private void ExitTheTrain()
         {
             Console.WriteLine("You have exit from the carriage.");
-            string prt = $"{arts.Street}";
+            string prt = $"{_arts.Street}";
             Console.WriteLine(prt);
-            sl.StartLevel();
+            _streetLevel.StartLevel();
         }
         public void Sleep()
         {
-            Console.WriteLine($"{arts.Sleep}");
+            Console.WriteLine($"{_arts.Sleep}");
             Console.WriteLine("you have fall down snd sleeping. And return in start city");
         }
     }

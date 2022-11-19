@@ -7,14 +7,14 @@ namespace Game.GameCore.Utils
     public class Menu
     {
         private string[] menuOpts;
-        public int selectedOpt;
+        public int SelectedOpt;
         private string Prompt;
 
         public void MainMenu(string prompt, string[] options)
         {
             Prompt = prompt;
             menuOpts = options;
-            selectedOpt = 0;
+            SelectedOpt = 0;
         }
 
         private void DispOpts()
@@ -24,7 +24,7 @@ namespace Game.GameCore.Utils
             {
                 string curOpt = menuOpts[i];
                 string prefix;
-                if (i == selectedOpt)
+                if (i == SelectedOpt)
                 {
                     prefix = "▷";
                     Console.ForegroundColor = ConsoleColor.Black;
@@ -54,19 +54,19 @@ namespace Game.GameCore.Utils
 
                 if (pressed == ConsoleKey.DownArrow)
                 {
-                    selectedOpt++;
-                    if (selectedOpt > 2) selectedOpt = menuOpts.Length - 1;
+                    SelectedOpt++;
+                    if (SelectedOpt > 2) SelectedOpt = menuOpts.Length - 1;
                 }
                 else if (pressed == ConsoleKey.UpArrow)
                 {
-                    selectedOpt--;
-                    if (selectedOpt < 0) selectedOpt = menuOpts.Length + 1;
+                    SelectedOpt--;
+                    if (SelectedOpt < 0) SelectedOpt = menuOpts.Length + 1;
                     
                 }
                 
             } while (pressed != ConsoleKey.Enter);
             
-            return selectedOpt;
+            return SelectedOpt;
         }
 
         

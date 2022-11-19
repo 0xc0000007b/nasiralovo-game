@@ -8,19 +8,19 @@ namespace Game.GameCore.Levels
     public class StationLevel
     {
         
-        private AsciiArts arts = new AsciiArts();
-        private Menu menu = new Menu();
+        private AsciiArts _arts = new AsciiArts();
+        private Menu _menu = new Menu();
        
            
 
         public void StartLevel()
         {
             
-            string prompt = $"{arts.Station}";
+            string prompt = $"{_arts.Station}";
             string[] opts = new[] { "enter the station", "go away" };
-            menu.MainMenu(prompt,opts);
-            menu.Run();
-            int selOpt = menu.selectedOpt;
+            _menu.MainMenu(prompt,opts);
+            _menu.Run();
+            int selOpt = _menu.SelectedOpt;
             switch (selOpt)
             {
                 case 0:
@@ -38,13 +38,13 @@ namespace Game.GameCore.Levels
         public void EnterTheStation()
         {
             string[] options = new[] { "ask question", "go away" };
-            string promt = $"{arts.Men}";
+            string promt = $"{_arts.Men}";
             Console.WriteLine("you have enter the station and seeing the men");
-            menu.MainMenu(promt, options);
+            _menu.MainMenu(promt, options);
             
             Console.WriteLine("what are you wanna doing?");
-            menu.Run();
-            int selectItem = menu.selectedOpt;
+            _menu.Run();
+            int selectItem = _menu.SelectedOpt;
             switch (selectItem)
             {
                 case 0:

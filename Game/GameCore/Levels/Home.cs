@@ -5,16 +5,16 @@ namespace Game.GameCore.Levels
 {
     public class Home
     {
-        private Menu menu = new Menu();
-        private AsciiArts arts = new AsciiArts();
+        private Menu _menu = new Menu();
+        private AsciiArts _arts = new AsciiArts();
 
         public void StartLevel()
         {
             string[] opts = new[] { "Enter the house", "go to shop" };
-            string prompt = $"{arts.House}";
-            menu.MainMenu(prompt, opts);
-            menu.Run();
-            int selectedOpt = menu.selectedOpt;
+            string prompt = $"{_arts.House}";
+            _menu.MainMenu(prompt, opts);
+            _menu.Run();
+            int selectedOpt = _menu.SelectedOpt;
             switch (selectedOpt)
             {
                 case 0:
@@ -25,10 +25,10 @@ namespace Game.GameCore.Levels
         private void EnterTheHouse()
         {
             string prompt = "Thanks for playing";
-            string[] opts = new[] { "Main menu", "exit" };
-            menu.MainMenu(prompt, opts);
-            menu.Run();
-            int selectItem = menu.selectedOpt;
+            string[] opts = new[] { "Main Menu", "exit" };
+            _menu.MainMenu(prompt, opts);
+            _menu.Run();
+            int selectItem = _menu.SelectedOpt;
             switch (selectItem)
             {
                 case 0:

@@ -6,15 +6,15 @@ namespace Game.GameCore.Levels
     public class ShopLevel
     {
         private AsciiArts arts = new AsciiArts();
-        private Menu menu = new Menu();
+        private Menu _menu = new Menu();
         public void StartLevel()
         {
             string[] opts = new[] { "buy products", "go away", "go home"};
             string prompt = $"{arts.Shop}";
             
-            menu.MainMenu(prompt, opts);
-            menu.Run();
-            int selectItem = menu.selectedOpt;
+            _menu.MainMenu(prompt, opts);
+            _menu.Run();
+            int selectItem = _menu.SelectedOpt;
             switch (selectItem)
             {
                 case 0:
@@ -42,9 +42,9 @@ namespace Game.GameCore.Levels
                             "what are you wanna doing next?";
             string[] opts = new[] { "go home", "go away" };
             
-            menu.MainMenu(prompt, opts);
-            menu.Run();
-            int selectOpt = menu.selectedOpt;
+            _menu.MainMenu(prompt, opts);
+            _menu.Run();
+            int selectOpt = _menu.SelectedOpt;
             switch (selectOpt)
             { 
                 case 0:

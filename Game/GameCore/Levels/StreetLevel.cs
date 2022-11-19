@@ -5,32 +5,32 @@ namespace Game.GameCore.Levels
 {
     public class StreetLevel
     {
-        private AsciiArts arts = new AsciiArts();
-        private Menu menu = new Menu();
-        private StationLevel sl = new StationLevel();
-        private CityLevel city = new CityLevel();
+        private AsciiArts _arts = new AsciiArts();
+        private Menu _menu = new Menu();
+        private StationLevel _stationLevel = new StationLevel();
+        private CityLevel _cityLevel = new CityLevel();
         public void StartLevel()
         {
             Console.Clear();
-            string prompt = $"{arts.Street}";
+            string prompt = $"{_arts.Street}";
             string[] opts = new[] {  "go to city", "go to station", "return to carriage"};
-            menu.MainMenu(prompt,opts);
-            menu.Run();
-            int select = menu.selectedOpt;
+            _menu.MainMenu(prompt,opts);
+            _menu.Run();
+            int select = _menu.SelectedOpt;
             switch (select)
             {
                 case 0:
                     Console.Clear();
-                    city.StartLevel();
+                    _cityLevel.StartLevel();
                     break;
                 case 1:
                     Console.Clear();
-                    sl.StartLevel();
+                    _stationLevel.StartLevel();
                     break;
                 case 2:
                     Console.Clear();
-                    TrainLevel tl = new TrainLevel();
-                    tl.StartGame();
+                    TrainLevel _trainLevel = new TrainLevel();
+                    _trainLevel.StartGame();
                     break;
             }
         }

@@ -4,7 +4,7 @@ namespace Game.GameCore.Utils.Dialogues
 {
     public class SwitchDialog
     {
-        private Menu menu = new Menu();
+        private Menu _menu = new Menu();
         public void SwitchTheDialog()
         {
             string[] questionsAndAnswers = new[] { "hello, you are in Perm", 
@@ -22,18 +22,18 @@ namespace Game.GameCore.Utils.Dialogues
                                         $"{questionsAndAnswers[3]}",
                                         "go away"
             };
-            menu.MainMenu(promt, options);
-            menu.Run();
-            int selectItem = menu.selectedOpt;
+            _menu.MainMenu(promt, options);
+            _menu.Run();
+            int selectItem = _menu.SelectedOpt;
             switch (selectItem)
             {
                 case 0:
                     string promtt = $"{questionsAndAnswers[4]}";
                     string[] optionst = new[] {
                         "Hi, Alexander. nice to meet you"};
-                    menu.MainMenu(promtt, optionst);
-                    menu.Run();
-                    int selectAns = menu.selectedOpt;
+                    _menu.MainMenu(promtt, optionst);
+                    _menu.Run();
+                    int selectAns = _menu.SelectedOpt;
                     switch (selectAns)
                     {
                         case 0:
@@ -44,9 +44,9 @@ namespace Game.GameCore.Utils.Dialogues
                 case 1:
                     string prt = $"{questionsAndAnswers[6]}";
                     string[] optins = { $"{questionsAndAnswers[7]}" };
-                    menu.MainMenu(prt, optins);
-                    menu.Run();
-                    int select = menu.selectedOpt;
+                    _menu.MainMenu(prt, optins);
+                    _menu.Run();
+                    int select = _menu.SelectedOpt;
                     switch (select)
                     {
                         case 0: 
@@ -57,9 +57,9 @@ namespace Game.GameCore.Utils.Dialogues
                 case 2:
                     string prom = $"{questionsAndAnswers[5]}";
                     string[] ops = new[] { $"{questionsAndAnswers[7]}" };
-                    menu.MainMenu(prom, ops);
-                    menu.Run();
-                    int selectD = menu.selectedOpt;
+                    _menu.MainMenu(prom, ops);
+                    _menu.Run();
+                    int selectD = _menu.SelectedOpt;
                     switch (selectD)
                     {
                         case 0: 

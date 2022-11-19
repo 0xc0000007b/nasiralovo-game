@@ -5,15 +5,15 @@ namespace Game.GameCore.Utils.Dialogues
 {
     public class DialSystem
     {
-        private Menu menu = new Menu();
+        private Menu _menu = new Menu();
         public void StartDialog()
         {
             Console.Clear();
             string prompt = "choose the question";
             string[] opts = new[] { "Hello, where am i?", "go away"};
-            menu.MainMenu(prompt,opts);
-            menu.Run();
-            int selectQuestion = menu.selectedOpt;
+            _menu.MainMenu(prompt,opts);
+            _menu.Run();
+            int selectQuestion = _menu.SelectedOpt;
             switch (selectQuestion)
             {
                 case 0:
