@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5492abca-0b02-41fb-870f-9f10921f81c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/GameCore/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/GameCore/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/GameCore/Levels/CityLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/GameCore/Levels/CityLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/GameCore/Levels/Home.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/GameCore/Levels/Home.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/GameCore/Levels/ShopLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/GameCore/Levels/ShopLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/GameCore/Levels/StationLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/GameCore/Levels/StationLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/GameCore/Levels/StreetLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/GameCore/Levels/StreetLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/GameCore/Levels/TrainLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/GameCore/Levels/TrainLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/GameCore/Utils/Dialogues/DialSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/GameCore/Utils/Dialogues/DialSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/GameCore/Utils/Dialogues/SwitchDialog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/GameCore/Utils/Dialogues/SwitchDialog.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/GameCore/Utils/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/GameCore/Utils/Menu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Game/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,23 +20,26 @@
     <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectId" id="2Gz1CXx39gy2wiwwbqWSFqyeSu2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.28349283&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CodeLensConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.28349283",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CodeLensConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Project.Game">
     <configuration name="Game" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -100,7 +94,7 @@
       <workItem from="1667494785556" duration="4625000" />
       <workItem from="1667564976628" duration="433000" />
       <workItem from="1668004955369" duration="769000" />
-      <workItem from="1668854521525" duration="626000" />
+      <workItem from="1668854521525" duration="1048000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1667413952288</created>
@@ -192,6 +186,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="test" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Game/.gitignore" />

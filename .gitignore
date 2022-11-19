@@ -1,7 +1,7 @@
 .idea/
 .vs/
 .vsc/
-obj/Debug
-bin/Debug
+Game/obj/Debug
+Game/bin/Debug
 Game/bin/Release
 

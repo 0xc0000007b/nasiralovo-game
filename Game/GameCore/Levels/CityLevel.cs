@@ -16,7 +16,7 @@ namespace Game.GameCore.Levels
             string prompt = $"{arts.City}";
             menu.MainMenu(prompt, opts);
             menu.Run();
-            int selectOpt = menu.selectedOpt;
+            int selectOpt = menu.SelectedOpt;
             switch (selectOpt)
             {
                 case 0:
