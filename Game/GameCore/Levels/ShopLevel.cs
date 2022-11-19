@@ -5,12 +5,12 @@ namespace Game.GameCore.Levels
 {
     public class ShopLevel
     {
-        private AsciiArts arts = new AsciiArts();
+        private AsciiArts _arts = new AsciiArts();
         private Menu _menu = new Menu();
         public void StartLevel()
         {
             string[] opts = new[] { "buy products", "go away", "go home"};
-            string prompt = $"{arts.Shop}";
+            string prompt = $"{_arts.Shop}";
             
             _menu.MainMenu(prompt, opts);
             _menu.Run();
@@ -35,7 +35,7 @@ namespace Game.GameCore.Levels
         {
             Console.Clear();
             string prompt = $"yoy have been buy the meat" +"\n"+
-                            $"{arts.products}" 
+                            $"{_arts.products}" 
                             +
                             "\n"
                             +
